@@ -5,4 +5,5 @@ $(document).ready(function(){
      $("#btnShowMeralco").on("click", function(){
         $("#newImage1").slideToggle("slow");
      });
+     $()
 })

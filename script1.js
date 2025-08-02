@@ -4,8 +4,7 @@ let ProfilepicFb = document.getElementById("ProfilepicFb");
 
 ProfilepicFb.addEventListener("mouseover",function(){
     ProfilepicFb.style.transform="scale(1.25)";
-    ProfilepicFb.style.boxShadow="10px 8px 2px white";
-})
+    ProfilepicFb.style.transition="transform 0.5s ease-in";})
 ProfilepicFb.addEventListener("mouseout",function(){
     ProfilepicFb.style.transform="scale(1.00)";
     ProfilepicFb.style.boxShadow="none";

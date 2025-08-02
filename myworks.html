@@ -1,52 +1,74 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
     <title>title</title>
-    <link rel="stylesheet" href ="newstyle.css">
+    <link rel="stylesheet" href="newstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+AMrE5E1eYrtljKkKQm26u0Gh9gqE" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 
 <body class="bg-dark">
     <p class="h4 text-white text-align-center d-block mx-auto" id="nameCard">My Works</p>
     <div class="navbar navbar-expand-sm bg-dark d-flex ">
         <br>
-        
+
         <ul class="nav-menu list-unstyled text-white mx-auto " id="navBarUl">
-            <li class="nav-item"><a class="nav-link" href='my portfolio.html'>Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="myworks.html">My projects</a>
+            <li class="nav-item"><a class="nav-link" href='index.html'>Home</a></li>
+            <li class="nav-item"><a class="nav-link" href='my portfolio.html'>my work experience</a></li>
+            <li class="nav-item "><a class="nav-link dropdown-toggle" href='myworks.html'>My projects</a></li>
+            <li class="dropdown-menu">
+                <ul class="dropdown-item">
+                    <li class="dropdown-item"><a class="text-decoration-none text-white"
+                            href="https://janjan-coder.github.io/jollibea/" target="_blank">Jollibee website clone</a>
+                    </li>
+                    <li class="dropdown-item"><a class="text-decoration-none text-white"
+                            href="https://janjan-coder.github.io/e-commerce/" target="_blank">Meralco website clone</a>
+                    </li>
+                </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href='aboutme.html'>About me</a></li>
             <li class="nav-item"><a class="nav-link" href='tel:09387514963'>contact me</a></li>
         </ul>
-    </div>  
+    </div>
     <div class="container mx-auto d-block bg-dark text-warning" id="worksSample">
         <span align="center">Jollibee website clone</span><br>
-        <div class="container mx-auto d-flex" id="fastfoodClone"><img src="OIP.jpg" id="newImage">
-            <p class="text-white" align="center">This is a clone project by me.I used the design of jollibee website as my inspiration.</p>
+        <div class="container mx-auto d-flex" id="fastfoodClone"><img src="jolibea.png" id="newImage">
+            <p class="text-white" align="center">This is a clone project by me.I used the design of jollibee website as
+                my inspiration.I made it during my free time</p>
 
         </div>
+        <button type="button" class="bg-warning text-danger rounded">
+        <a href="https://janjan-coder.github.io/jollibea/" target="_blank" class="text-decoration-none text-black"
+            title="click here to see this website">click here to see live website</a></button>
+        <hr class="horizontal_line">
+        <p class="h3 text-warning" align="center">e-commerce prototype</p>
+        <div class="container mx-auto d-flex" id="ecommercePrototype">
+            <br><img src="premium_outlets.png" id="newImage1" class="float-start">
+            <p class="text-white" align="center">This is a prototype project by me.I did it when I am doing my Ojt.</p>
+        </div>
+        <button type="button" class="bg-warning text-danger rounded" id="btnShowMeralco"><a
+                href="https://janjan-coder.github.io/e-commerce/" target="_blank"
+                class="text-decoration-none text-black" title="click here to see this website">click here to see live
+                website</a></button>
+        <section class="bg-white text-dark container-fluid">
+    </div>
+    </section>
 
-        <button type="button" class="bg-warning text-danger rounded" id="btnShowFastFood">Click to see Screenshot</button>
-    <hr class="horizontal_line">
-    <p class="h3 text-warning" align="center">Meralco website clone</p>
-   <div class="container mx-auto d-flex" id="MeralcoClone">
-    <br><img src="https://bilyonaryo.com/wp-content/uploads/2023/03/Meralco-diversifies-into-alternative-energy-with-Movem-Electric.jpg" id="newImage1" class="float-start">
-    <p class="text-white" align="center">This is a clone project by me.I used the design of Meralco website as my inspiration.</p>
-   </div>
-   <button type="button" class="bg-warning text-danger rounded" id="btnShowMeralco">click here to see screenshot</button>
-<section class="bg-white text-dark container-fluid">
-</div>
-  </section>
-
-  <script src ="scriptForMyworks.js"></script>
+    <script src="scriptForMyworks.js"></script>
 </body>
+
 </html>
